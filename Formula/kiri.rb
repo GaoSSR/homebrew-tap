@@ -5,11 +5,11 @@ class Kiri < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gaossr/kiri/releases/download/v0.1.10/kiri-aarch64-apple-darwin.tar.gz"
-      sha256 "b58626529e069d93024e0b388187a10175c96a9239c9ffb0234efc39780e312e"
+      url "https://github.com/gaossr/kiri/releases/download/v0.1.11/kiri-aarch64-apple-darwin.tar.gz"
+      sha256 "845bace28dcf28d50dfe11695a76dc2deda6aea7ef473562accc92a207ec57c0"
     else
-      url "https://github.com/gaossr/kiri/releases/download/v0.1.10/kiri-x86_64-apple-darwin.tar.gz"
-      sha256 "b63d4b76292e21c3a6d5a8e6108ee1da743f4ef29df9ef8b76ff7c6dc24ce1a2"
+      url "https://github.com/gaossr/kiri/releases/download/v0.1.11/kiri-x86_64-apple-darwin.tar.gz"
+      sha256 "cb26bea92796ff210688c188a8d0b022629de48ad61cd2c28304466ff9c3ec90"
     end
   end
 
